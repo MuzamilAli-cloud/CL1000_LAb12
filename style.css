@@ -1,0 +1,84 @@
+body {
+    background-color: aliceblue;
+    font: Arial;
+    margin: 30px;
+}
+
+#timeline {
+    width: 80%;
+    margin: auto;
+}
+
+#header {
+    border: 2px solid;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-color: steelblue;
+}
+
+h1 {
+    color: navy;
+}
+
+#image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stage {
+    border: 2px solid;
+    border-left: 8px solid;
+    padding: 15px;
+    margin-top: 12px;
+    background-color: white;
+    border-color: steelblue;
+}
+
+#past {
+    margin-left: 0;
+}
+
+#present {
+    margin-left: 40px;
+}
+
+
+#future {
+    margin-left: 80px;
+    border: 2px dashed;
+    border-left: 8px dashed;
+    border-color: steelblue;
+}
+
+
+h2 {
+    color: navy;
+}
+
+
+.year {
+    border: 1px;
+    padding: 8px;
+    width: 100px;
+    font-weight: bold;
+}
+
+
+.fact {
+    display: inline-block;
+    border: 1px;
+    padding: 12px;
+    margin: 5px;
+}
+
+.goal {
+    display: inline-block;
+    border: 1px;
+    padding: 12px;
+    margin: 5px;
+}
